@@ -1,0 +1,51 @@
+@media (max-width: 1078px){
+    .main h1{
+        font-size: 35px;
+        text-align: left;
+        margin-bottom: 10px;
+
+    }
+    .image {
+        display: block;
+    }
+    .image img{
+        width: 400px;
+    }
+}
+@media (max-width: 667px){
+    .main{
+        padding: 80px 40px;
+    }
+    .top-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .top-content{
+        margin: auto;
+        padding: 0;
+        width: 400px;
+    }
+    .top-content h1{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .top-wrapper p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .image {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    .image img{
+        width: 400px;
+    }
+    .btn{
+        width: 400px;
+    }
+}
+
+
