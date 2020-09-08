@@ -51,11 +51,9 @@ html{
   color: #34629B;
 }
 
-//responsive
 
-//tablet
 
-@media(max-width: 1000px){
+@media (max-width: 1000px){
   .top-content h1{
     font-size: 10px;
   }
@@ -67,4 +65,4 @@ html{
     width: 200px;
   }
 }
-// smartphone
+
