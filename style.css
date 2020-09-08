@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #fafafa;
+  font-family: 'Quicksand', sans-serif;
+}
+.main{
+  margin: auto;
+  padding: 100px 80px;
+  max-width: 1170px;
+} 
+.top-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.top-content h1{
+  font-size: 50px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.image{
+  float: right;
+}
+.image img{
+  width: 600px;
+}
+
+.btn {
+
+ display:inline-block;
+ margin-right: 10px;
+ border-radius: 20px;
+ padding: 10px 30px;
+ margin: 5px 10px 5px 0px;
+ border: none;
+ width: auto;
+ color: white;
+}
+
+.signin{
+  float: left;
+  background-color: #34629B;
+}
+.signup{
+  float: left ;
+  background-color: #fafafa;
+  border:1px solid lightgray;
+  color: #34629B;
+}
+
+//responsive
+
+//tablet
+
+@media(max-width: 1000px){
+  .top-content h1{
+    font-size: 40px;
+  }
+
+  .image img{
+    width: 300px;
+  }
+}
+// smartphone
