@@ -1,3 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #fafafa;
+    font-family: 'Quicksand', sans-serif;
+}
+/* CSS HEADER! */
 
+.header {
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    max-width: 1170;
+}
+
+.header h3 {
+    margin-top: -2px;
+    float: left;
+    font-style: normal;
+}
+
+.header-right a {
+    float: right;
+    padding-right: 30px;
+    display: block;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-header {
+    float: right;
+    display: block;
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0px;
+    border-radius: 20px;
+    margin-top: -2px;
+    background-color: #34629B;
+    border: none;
+    color: #fafafa;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Akhir CSS Header */
+
+/* main */
+.main {
+    margin: auto;
+    padding: 100px 80px;
+    max-width: 1170px;
+}
+
+.top-content {
+    padding-right: 20px;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-content h1 {
+    font-size: 60px;
+}
+
+.image {
+    float: right;
+}
+
+.image img {
+    width: 560px;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 5px 10px 5px 0px;
+    border: none;
+    width: auto;
+    color: white;
+    opacity: 0.8
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signin {
+    float: left;
+    background-color: #34629B;
+}
+
+.signup {
+    float: left;
+    background-color: #fafafa;
+    border: 1px solid lightgray;
+    color: #34629B;
+}
 
 
