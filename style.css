@@ -57,11 +57,14 @@ html{
 
 @media(max-width: 1000px){
   .top-content h1{
-    font-size: 40px;
+    font-size: 10px;
   }
 
+  .image{
+    margin: auto;
+  }
   .image img{
-    width: 300px;
+    width: 200px;
   }
 }
 // smartphone
