@@ -91,7 +91,9 @@ button:hover {
 .btn:hover {
     opacity: 1;
 }
-
+.btn a{
+    text-decoration: none;
+}
 .signin {
     float: left;
     background-color: #34629B;
