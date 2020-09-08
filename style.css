@@ -91,7 +91,7 @@ button:hover {
 .btn:hover {
     opacity: 1;
 }
-.btn a{
+.main a{
     text-decoration: none;
 }
 .signin {
