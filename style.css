@@ -11,21 +11,22 @@ html{
   padding: 100px 80px;
   max-width: 1170px;
 } 
+.top-content{
+    padding-right: 20px;
+}
 .top-wrapper{
   display: flex;
   flex-direction: row;
 }
 .top-content h1{
-  font-size: 50px;
-  line-height: 30px;
-  margin-bottom: 40px;
+  font-size: 60px;
 }
 
 .image{
   float: right;
 }
 .image img{
-  width: 600px;
+  width: 560px;
 }
 
 .btn {
@@ -38,6 +39,11 @@ html{
  border: none;
  width: auto;
  color: white;
+ opacity: 0.8
+}
+
+.btn:hover{
+opacity: 1;
 }
 
 .signin{
@@ -49,20 +55,5 @@ html{
   background-color: #fafafa;
   border:1px solid lightgray;
   color: #34629B;
-}
-
-
-
-@media (max-width: 1000px){
-  .top-content h1{
-    font-size: 10px;
-  }
-
-  .image{
-    margin: auto;
-  }
-  .image img{
-    width: 200px;
-  }
 }
 
