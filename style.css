@@ -92,18 +92,19 @@ button:hover {
     opacity: 1;
 }
 .main a{
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 .signin {
     float: left;
     background-color: #34629B;
 }
-
-.signup a{
+.signup {
     float: left;
     background-color: #fafafa;
     border: 1px solid lightgray;
+}
+.signup a{
     color: #34629B;
 }
 
