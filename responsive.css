@@ -14,16 +14,17 @@
 }
 @media (max-width: 667px){
     .main{
-        padding: 80px 80px;
+        padding: 80px 10px;
     }
     .top-wrapper {
         display: flex;
         flex-direction: column-reverse;
+        margin: auto;
     }
     .top-content{
         margin: auto;
-        padding: 0;
-        width: 400px;
+        padding-right: 0;
+        width: auto;
     }
     .top-content h1{
         font-size: 30px;
@@ -44,7 +45,7 @@
         width: 400px;
     }
     .btn{
-        width: 400px;
+        width: 100%;
     }
 }
 
