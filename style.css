@@ -5,7 +5,50 @@ html {
     background-color: #fafafa;
     font-family: 'Quicksand', sans-serif;
 }
+/* CSS HEADER! */
 
+.header {
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    max-width: 1170;
+}
+
+.header h3 {
+    margin-top: -2px;
+    float: left;
+    font-style: normal;
+}
+
+.header-right a {
+    float: right;
+    padding-right: 30px;
+    display: block;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-header {
+    float: right;
+    display: block;
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0px;
+    border-radius: 20px;
+    margin-top: -2px;
+    background-color: #34629B;
+    border: none;
+    color: #fafafa;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Akhir CSS Header */
+
+/* main */
 .main {
     margin: auto;
     padding: 100px 80px;
@@ -62,45 +105,3 @@ html {
 }
 
 
-/* CSS HEADER! */
-
-.header {
-    margin: auto;
-    padding: 0px 20px 0px 20px;
-    max-width: 1170;
-}
-
-.header h3 {
-    margin-top: -2px;
-    float: left;
-    font-style: normal;
-}
-
-.header-right a {
-    float: right;
-    padding-right: 30px;
-    display: block;
-    transition: all 0.5s;
-    text-decoration: none;
-    color: black;
-}
-
-.btn-header {
-    float: right;
-    display: block;
-    padding: 5px 15px;
-    margin: 5px 10px 5px 0px;
-    border-radius: 20px;
-    margin-top: -2px;
-    background-color: #34629B;
-    border: none;
-    color: #fafafa;
-    opacity: 0.8;
-}
-
-button:hover {
-    opacity: 1;
-}
-
-
-/* Akhir CSS Header */
