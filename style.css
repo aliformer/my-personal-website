@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-html {
+* {
     box-sizing: border-box;
     margin: 0px;
-    background-color: #fafafa;
+    padding: 0px;
     font-family: 'Quicksand', sans-serif;
 }
 /* CSS HEADER! */
@@ -15,12 +15,14 @@ html {
 
 .header h3 {
     margin-top: -2px;
+    padding: 5px 0;
     float: left;
     font-style: normal;
 }
 
 .header-right a {
     float: right;
+    padding: 5px;
     padding-right: 30px;
     display: block;
     transition: all 0.5s;
@@ -31,7 +33,7 @@ html {
 .btn-header {
     float: right;
     display: block;
-    padding: 5px 15px;
+    padding: 10px 20px;
     margin: 5px 10px 5px 0px;
     border-radius: 20px;
     margin-top: -2px;
@@ -110,17 +112,14 @@ button:hover {
 
 footer {
 	width: 100%;
-	height: 50px;
-	font-size: 15px;
-	font-family: quicksand, sans-serif;
+	height: 60px;
+	font-size: 14px;
 	background-color: #34629B;
-  	color: #fff;
+  color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #34629B;
-	position: relative;
-	bottom: 0px;
 }
 
 .container {
@@ -129,18 +128,21 @@ footer {
 }
 
 .front {
-	text-align: center;
+  text-align: center;
+  margin: auto;
 }
 
 .copy-container {
-	margin-left: auto;
+  margin: auto;
+  padding: 0 20px;
+  margin: 0 20px;
 }
 
 button {
-	padding: 10px;
+  margin-right: 20px;
+  width: auto;
+	padding: 10px 30px;
 	border: 1px solid #fff;
 	background-color: #fff;
-	border-radius: 15px;
+	border-radius: 25px;
 }
-
-
