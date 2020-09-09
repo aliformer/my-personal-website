@@ -14,32 +14,9 @@
     
     footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     font-size: 15px;
-  }
-
-  .container {
-	font-style: bold;
-	padding-left: 10px;
-  	padding-right: 10px;
-  }
-
-   .front {
-	margin-left: auto;
-	padding-left: 160px;
-  	padding-right: 10px;
-  }
-
-   .copy-container {
-	margin-left: auto;
-	padding-left: 80px;
-  	padding-right: 10px;
-  }
-
-  .button {
-  	padding-right: 10px;
-  	padding-left: 50px;
   }
 
    button {
@@ -88,37 +65,9 @@
     
     footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     font-size: 10px;
-  }
-
-  .container {
-  	padding-left: 10px;
-  	padding-right: 5px;
-  	bottom: 0;
-	padding: 0;
-  }
-
-  .front {
-	margin-left: auto;
-	padding-left: 130px;
-  	padding-right: 10px;
-  	bottom: 0;
-	padding: 0;
-  }
-
-   .copy-container {
-	padding-left: 80px;
-  	bottom: 0;
-	padding: 0;
-  }
-
-   .button {
-   	padding-left: 50px;
-  	padding-right: 10px;
-  	padding-bottom: 17px;
-  	bottom: 0;
   }
 
    button {
