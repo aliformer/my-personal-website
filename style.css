@@ -181,8 +181,8 @@ button {
     margin-top: 20px;
     text-align: left;
 }
-.content img {
-    width: 400px;
+.articles img {
+    width: 360px;
 }
 
 .message p{
@@ -210,4 +210,98 @@ button {
     margin: auto;
     font-size: 50px;
     color: #34629B;
+}
+
+.main3 {
+	height: 500px;
+	width: 100%;
+	font-family: quicksand, sans-serif;
+	background-color: #a9a9a9;
+	padding: 50px;
+}
+
+@font-face {
+	font-family: quicksand;
+	src: url(Quicksand-SemiBold.ttf);
+}
+
+.top-header h1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.top-header p {
+	font-size: 15px;
+	text-align: center;
+}
+
+.kotak {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+	margin: auto;
+}
+
+.kotak1 {
+	width: 250px;
+	height: 300px;
+	border: 5px solid #34629B;
+	border-radius: 10px;
+}
+
+.kotak1 h1 {
+	text-align: center;
+}
+
+.kotak1 h3,p {
+	padding-left: 20px;
+}
+
+button {
+	border: 3px solid #34629B;
+	background-color: #34629B;
+	color: #fff;
+	border-radius: 15px;
+	margin-left: 80px;
+	margin-top: 85px;
+}
+
+.kotak2 {
+	width: 250px;
+	height: 300px;
+	border: 5px solid #34629B;
+	border-radius: 10px;
+}
+
+.kotak2 h1 {
+	text-align: center;
+}
+
+.kotak2 h3,p {
+	padding-left: 20px;
+}
+
+.kotak2 button {
+	margin-top: 50px;
+}
+
+.kotak3 {
+	width: 250px;
+	height: 300px;
+	border: 5px solid #34629B;
+	border-radius: 10px;
+}
+
+.kotak3 h1 {
+	text-align: center;
+}
+
+.kotak3 h3,p {
+	padding-left: 20px;
+}
+
+.kotak3 button {
+	margin-top: 17px;
 }
