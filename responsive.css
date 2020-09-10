@@ -1,15 +1,18 @@
-@media (max-width: 1078px){
+@media (max-width: 1024px){
     .main h1{
-        font-size: 35px;
+        font-size: 28px;
         text-align: left;
         margin-bottom: 10px;
 
+    }
+    .main p{
+        font-size: 16px;
     }
     .image {
         display: block;
     }
     .image img{
-        width: 400px;
+        width: 300px;
     }
 
    button {
@@ -17,10 +20,20 @@
 	border: 1px solid #fff;
 	background-color: #fff;
   }
+  .content{
+      padding: 100px 40px;
+  }
+  .content h2{
+      font-size: 20px;
+  }
+  .articles img{
+    width: 220px;
+    margin: auto;
+}
 }
 @media (max-width: 667px){
     .main{
-        padding: 80px 10px;
+        padding: 20px 10px;
     }
     .top-wrapper {
         display: flex;
@@ -30,7 +43,7 @@
     .top-content{
         margin: auto;
         padding-right: 0;
-        max-width: 320px;
+        max-width: 360px;
         
     }
     .top-content h1{
@@ -42,6 +55,7 @@
         text-align: center;
         font-size: 16px;
         line-height: 18px;
+        margin-bottom: 20px;
     }
     .image {
         display: block;
@@ -49,16 +63,65 @@
         margin: auto;
     }
     .image img{
-        width: 360px;
+        width: 400px;
     }
     .btn{
         width: 100%;
+        margin: 5px 0;
     }
 
    button {
     padding: 10px 15px;
 	border:1px solid #fff;
-	font-size: 10px;
+    font-size: 10px;
+    display: inline-block;
 	background-color: #fff;
   }
+  .content{
+      padding:10px;
+      margin: auto;
+      margin-top: 30px;
+  }
+  .icon-wrapper{
+    padding:20px 10;
+}
+.icon{
+    padding: 10px;
+    margin: auto;
+}
+.icon div{
+    margin: 0 10px;
+    text-align: center;
+}
+.icon p{
+    font-size: 16px;
+    text-align: center;
+}
+.fa {
+    font-size: 36px;
+}
+
+.content .first{
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+.articles img{
+    width: 220px;
+    margin: auto;
+}
+.content .second{
+    text-align: left;
+    flex-direction: column;
+}
+.message{
+    margin-right: 0;
+    flex-direction: column;
+    font-size: 16px;
+}
+.message .h2{
+    margin: auto;
+    text-align: center;
+}
+
 }
