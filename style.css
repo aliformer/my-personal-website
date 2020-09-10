@@ -53,7 +53,7 @@ button:hover {
 /* main */
 .main {
     margin: auto;
-    padding: 100px 80px;
+    padding: 100px 80px 10px 80px;
     max-width: 1170px;
     font-size: 20px;
 }
@@ -140,7 +140,7 @@ footer {
   display: inline;
 }
 
-button {
+footer button {
   width: auto;
   margin-right: 20px;
 	padding: 10px 30px;
@@ -152,10 +152,10 @@ button {
     display: flex;
     flex-direction: column;
 }
-.content{
-    padding: 100px 80px;
+.mid-content{
+    padding: 20px 80px;
 }
-.content .title {
+.mid-content .title {
     text-align: center;
     font-size: 25px;
     margin: auto;
@@ -166,12 +166,12 @@ button {
     font-size: 16px;
     
 }
-.content .first{
+.mid-content .first{
     padding: 30px 0;
     display: flex;
     flex-direction: row-reverse;
 }
-.content .second{
+.mid-content .second{
     padding: 30px 0;
     display: flex;
     flex-direction: row;
@@ -182,7 +182,8 @@ button {
     text-align: left;
 }
 .articles img {
-    width: 360px;
+    height: 320px;
+    width: 300px;
 }
 
 .message p{
@@ -213,95 +214,51 @@ button {
 }
 
 .main3 {
-	height: 500px;
-	width: 100%;
-	font-family: quicksand, sans-serif;
-	background-color: #a9a9a9;
-	padding: 50px;
+	height: 600px;
+	padding: 10px 40px;
 }
-
-@font-face {
-	font-family: quicksand;
-	src: url(Quicksand-SemiBold.ttf);
+.top-header{
+    padding: 20px;
 }
-
 .top-header h1 {
 	font-size: 25px;
 	font-weight: bold;
-	text-align: center;
+    text-align: center;
+    margin-bottom: 20px;
 }
-
 .top-header p {
 	font-size: 15px;
-	text-align: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
-
-.kotak {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding: 30px;
-	margin: auto;
+.boxes{
+    display: flex;
+    flex-direction: row;
 }
-
-.kotak1 {
-	width: 250px;
-	height: 300px;
-	border: 5px solid #34629B;
-	border-radius: 10px;
+.box{
+    width : 240px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    background-color: #e8ecf3;
+    border: 1px solid #34629B;
+    border-radius: 10%;
 }
-
-.kotak1 h1 {
-	text-align: center;
+.box h1{
+    font-size:28px;
 }
-
-.kotak1 h3,p {
-	padding-left: 20px;
+.box p{
+    margin: 20px 0;
+    text-align: center;
 }
-
-button {
-	border: 3px solid #34629B;
-	background-color: #34629B;
-	color: #fff;
-	border-radius: 15px;
-	margin-left: 80px;
-	margin-top: 85px;
-}
-
-.kotak2 {
-	width: 250px;
-	height: 300px;
-	border: 5px solid #34629B;
-	border-radius: 10px;
-}
-
-.kotak2 h1 {
-	text-align: center;
-}
-
-.kotak2 h3,p {
-	padding-left: 20px;
-}
-
-.kotak2 button {
-	margin-top: 50px;
-}
-
-.kotak3 {
-	width: 250px;
-	height: 300px;
-	border: 5px solid #34629B;
-	border-radius: 10px;
-}
-
-.kotak3 h1 {
-	text-align: center;
-}
-
-.kotak3 h3,p {
-	padding-left: 20px;
-}
-
-.kotak3 button {
-	margin-top: 17px;
+.box button{
+    text-align: center;
+    background-color:  #34629B;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
